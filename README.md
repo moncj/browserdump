@@ -10,6 +10,8 @@ Software Requirement
 Methodology
 The tool performs forensics functions based on a collection of open tools including Volatility and Scalpel. Firstly, Volatility is used to initialize the analysis of memory. We acquire the capability of Volatility to enumerate computer processes in the captured memory file and then separate only a chunk of the web browser's memory to be processed further. Possible URL histories are discovered and collected by matching string patterns with Regular Expression concentrating on HTTP and HTTPS protocol. While image recovery was proceeding under the functionality of Scalpel. JPG and PNG image files were carved out based on specific string header in the customized configuration file.
 
+Instruction
+1. Download both project.py and img.conf and drop them in Volatility folder
 
 Command
 python project.py -f <inputfile> -p <profile> -b <ie|chrome|firefox|all> -o <output>
