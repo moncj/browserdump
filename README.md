@@ -18,3 +18,5 @@ python project.py -f <inputfile> -p <profile> -b <ie|chrome|firefox|all> -o <out
 
 Example
 python project.py -f ../chrome_memdump.mem -p Win10x64_17134 -b chrome -o chrome-output
+
+##
